@@ -9,7 +9,7 @@ using System.ServiceProcess;
 namespace WindowsService1
 {
     [RunInstaller(true)]
-    public partial class ProjectInstaller : ServiceInstaller
+    public partial class ProjectInstaller : Installer
     {
         public ProjectInstaller()
         {
